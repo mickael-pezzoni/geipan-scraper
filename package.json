@@ -1,0 +1,23 @@
+{
+  "name": "geipan-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "rm -rf dist && npm run build && node --trace-warnings dist/src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^4.1.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.8",
+    "@types/node-fetch": "^2.5.12"
+  }
+}
